@@ -1,0 +1,83 @@
+body {
+    overflow-x: hidden;
+}
+
+.backgroundImag {
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    width: auto;
+    position: absolute;
+    z-index: -1;
+    height: 140%;
+    overflow: hidden;
+}
+
+.futr {
+    height: 20%;
+    z-index: 0;
+    background-color: rgb(35, 34, 34);
+    color: white;
+    
+}
+
+.container {
+    max-width: 99vw;
+    padding: 0px;
+}
+
+.carouselInnerItem {
+    margin: 10px;
+}
+
+.headr {
+    height: fit-content;
+}
+
+.window {
+    /*border: 1px solid black;*/
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0;
+    padding: 10px;
+}
+
+.row {
+    height: fit-content;
+}
+
+.nav-item-container {
+    text-align: center;
+}
+
+.nav-item {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(35, 34, 34);
+}
+
+.activePage {
+    background-color: rgb(35, 34, 34);
+    color: white;
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: rgb(35, 34, 34);
+}
+
+.coverImage {
+    height: 80%;
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 1;
+}
+
+#buy {
+    position: relative;
+    z-index: 2;
+}
